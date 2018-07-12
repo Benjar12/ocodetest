@@ -6,6 +6,7 @@ phases:
     commands:
 
       # Build our application
+      - ls ./
       - go build -o api
 
 artifacts:
