@@ -6,6 +6,8 @@ phases:
     commands:
 
       # Build our application
+      - go get github.com/tools/godep
+      - godep restore
       - ls ./
       - go build -o api
 
